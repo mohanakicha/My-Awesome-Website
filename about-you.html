@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About You!</title>
+        <link rel= "stylesheet" href= "screen.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pompiere&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class= "about-you">
+        <header>
+            <h1>About You!!</h1>
+            <nav class= "site-nav">
+                <ul class= "group">
+                    <li><a href= "mypage.html">Home</a></li>
+                </ul>
+            </nav>
+            <p>I would love to learn more about you! Please fill out the form below!! :) </p>
+        </header>
+
+        <aside>
+            <img src= "Images/you-2.jpg" alt= "You!" class= "you">
+        </aside>
+
+        <form>
+            <label for= "firstName">First Name:</label>
+            <input id= "firstName" type= "text" name= "firstName">
+        </form>
+        <form>
+            <label for= "lastName">Last Name:</label>
+            <input type= "text" id= "lastName" name= "lastName">
+        </form>
+
+        <form>
+            <label for= "emailAddress">Email Address:</label>
+            <input id= "emailAddress" type= "email" name= "emailAddress">
+        </form>
+
+        <form>
+        <label for= "favoriteColor">Favorite Color:</label>
+        <select name= "favoriteColor">
+            <option id= "favoriteColor" value= "colorSelect">Choose Color</option>
+            <option id= "favoriteColor" value= "colorRed">Red</option>
+            <option id= "favoriteColor" value= "colorOrange">Orange</option>
+            <option id= "favoriteColor" value= "colorYellow">Yellow</option>
+            <option id= "favoriteColor" value= "colorGreen">Green</option>
+            <option id= "favoriteColor" value= "colorBlue">Blue</option>
+            <option id= "favoriteColor" value= "colorIndigo">Indigo</option>
+            <option id= "favoriteColor" value= "colorViolet">Violet</option>
+            <option id= "favoriteColor" value= "colorViolet">Pink</option>
+            <option id= "favoriteColor" value= "colorBlack">Black</option>
+            <option id= "favoriteColor" value= "colorWhite">White</option>
+        </select>
+        </form>
+        <form>
+    <fieldset>
+        <legend>Favorite Meal of the Day:  </legend>
+            <input id= "breakfast" type= "radio" value= "meal1" name= "favoriteMeal"><label for= "breakfast">Breakfast</label>
+            <input id= "brunch" type= "radio" value= "meal2" name= "favoriteMeal"><label for= "brunch">Brunch</label>
+            <input id= "lunch" type= "radio" value= "meal3" name= "favoriteMeal"><labe for= "lunch">Lunch</label>
+            <input id= "dinner" type= "radio" value= "meal4" name= "favoriteMeal"><label for= "dinner">Dinner</label>
+    </fieldset>
+    </form>
+    <form>
+    <fieldset>
+        <legend>Pets (check all that apply):</legend>
+            <input id= "dog" type= "checkbox" value= "dog" name= "pet"><label for= "dog">Dog</label>
+            <input id= "cat" type= "checkbox" value= "cat" name= "pet"><label for= "cat">Cat</label>
+            <input id= "fish" type= "checkbox" value= "fish" name= "pet"><labe for= "fish">Fish</label>
+            <input id= "bird" type= "checkbox" value= "bird" name= "pet"><label for= "bird">Bird</label>
+            <input id= "other" type= "checkbox" value= "other" name= "pet"><label for= "other">Other</label>
+            <input id= "none" type= "checkbox" value= "none" name= "pet"><label for= "none">None</label>
+    </fieldset> 
+    </form>  
+
+    <form>
+        <input type= "submit" value= "Submit">
+    </form>
+    </div>
+
+    </body>
+
+</html>
